@@ -4,13 +4,21 @@
  */
 package com.gokisoft.books.models;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import java.io.Serializable;
 
 /**
  *
  * @author dieptv
  */
+@Entity(name = "books")
 public class Book implements Serializable{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String bookName;
     private float price;
     private String authorName;
@@ -58,6 +66,14 @@ public class Book implements Serializable{
         this.publishedDate = publishedDate;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+    
     @Override
     public String toString() {
         return "Book{" + "bookName=" + bookName + ", price=" + price + ", authorName=" + authorName + ", publishedDate=" + publishedDate + '}';

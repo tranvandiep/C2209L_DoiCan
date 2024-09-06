@@ -1,0 +1,37 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Book Management</title>
+</head>
+<body th:fragment="content">
+<div class="col-sm-12">
+    <a href="/book2/input"><button class="btn btn-success">Add new book</button></a>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Book Name</th>
+          <th>Price</th>
+          <th>Author Name</th>
+          <th>Published Date</th>
+          <th style="width: 200px"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="item, iterStat : ${dataList}">
+          <td><span th:text="${iterStat.index + 1}"></span></td>
+          <td><span th:text="${item.bookName}"></span></td>
+          <td><span th:text="${item.price}"></span></td>
+          <td><span th:text="${item.authorName}"></span></td>
+          <td><span th:text="${item.publishedDate}"></span></td>
+          <th>
+              <a href="#" th:href="${'/book2/edit?id=' + item.id}"><button class="btn btn-warning">Edit</button></a>
+              <a href="#" th:href="${'/book2/delete?id=' + item.id}"><button class="btn btn-danger">Remove</button></a>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+</div>
+</body>
+</html>
