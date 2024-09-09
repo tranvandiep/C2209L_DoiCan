@@ -22,6 +22,10 @@ Nội dung kiến thức:
 			param: @body, @form
 			res: Message (status, message)
 	- jwt
+		- Tạo tài khoản user (login/register)
+		- Quản lý login
+		- security
+
 		create table users (
 			id int primary key auto_increment,
 			name varchar(100),
