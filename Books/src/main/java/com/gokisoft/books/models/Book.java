@@ -8,6 +8,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
@@ -19,9 +21,13 @@ public class Book implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @NotNull(message = "Book Name is not null")
     private String bookName;
+    @Min(value = 0, message = "Price is great than 0")
     private float price;
+    @NotNull(message = "Author name is not null")
     private String authorName;
+    
     private String publishedDate;
 
     public Book() {

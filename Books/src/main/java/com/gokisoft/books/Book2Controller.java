@@ -6,6 +6,7 @@ package com.gokisoft.books;
 
 import com.gokisoft.books.models.Book;
 import com.gokisoft.books.repos.ReposBook;
+import jakarta.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,7 +46,7 @@ public class Book2Controller extends BaseController{
     }
     
     @PostMapping(value = "/input")
-    public String post(@ModelAttribute Book book, Model model) {
+    public String post(@Valid @ModelAttribute Book book, Model model) {
         reposBook.save(book);
         
         return "redirect:/book2/index";
