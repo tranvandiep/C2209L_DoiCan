@@ -1,10 +1,13 @@
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/controllers/UsersJpaController.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/JakartaRestConfiguration.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/resources/JakartaEE10Resource.java
+/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/servlets/product/EditServlet.java
+/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/servlets/product/ProductServlet.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/controllers/exceptions/PreexistingEntityException.java
-/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/servlets/ProductServlet.java
-/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/controllers/ProductsJpaController.java
+/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/servlets/product/DeleteServlet.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/entities/Users.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/controllers/exceptions/NonexistentEntityException.java
+/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/controllers/ProductsJpaController.java
+/Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/servlets/product/InputServlet.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/entities/Products.java
 /Users/dieptv/NetBeansProjects/ECommerce/src/main/java/com/gokisoft/ecommerce/controllers/exceptions/IllegalOrphanException.java

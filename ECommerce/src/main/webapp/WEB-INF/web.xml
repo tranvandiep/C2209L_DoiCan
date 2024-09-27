@@ -2,11 +2,35 @@
 <web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
     <servlet>
         <servlet-name>ProductServlet</servlet-name>
-        <servlet-class>com.gokisoft.ecommerce.servlets.ProductServlet</servlet-class>
+        <servlet-class>com.gokisoft.ecommerce.servlets.product.ProductServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InputServlet</servlet-name>
+        <servlet-class>com.gokisoft.ecommerce.servlets.product.InputServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditServlet</servlet-name>
+        <servlet-class>com.gokisoft.ecommerce.servlets.product.EditServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>com.gokisoft.ecommerce.servlets.product.DeleteServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ProductServlet</servlet-name>
-        <url-pattern>/ProductServlet</url-pattern>
+        <url-pattern>/product/list</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InputServlet</servlet-name>
+        <url-pattern>/product/input</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditServlet</servlet-name>
+        <url-pattern>/product/edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/product/delete</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

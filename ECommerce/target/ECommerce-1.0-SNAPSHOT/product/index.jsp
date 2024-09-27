@@ -23,7 +23,7 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-12">
-      <a href="/book/input"><button class="btn btn-success">Add new book</button></a>
+      <a href="input"><button class="btn btn-success">Add new book</button></a>
       <table class="table">
         <thead>
           <tr>
@@ -32,6 +32,7 @@
             <th>Thumbnail</th>
             <th>Content</th>
             <th>Updated At</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -46,6 +47,10 @@
                 </td>
                 <td><%= item.getContent()%></td>
                 <td><%= item.getUpdatedAt()%></td>
+                <th>
+                    <a href="edit?id=<%= item.getId()%>"><button class="btn btn-warning">Edit</button></a>
+                    <a href="delete?id=<%= item.getId()%>"><button class="btn btn-danger">Delete</button></a>
+                </th>
               </tr>
         <%
             }

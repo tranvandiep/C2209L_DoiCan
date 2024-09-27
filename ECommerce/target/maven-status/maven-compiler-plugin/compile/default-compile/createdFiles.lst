@@ -1,10 +1,13 @@
-com/gokisoft/ecommerce/controllers/exceptions/IllegalOrphanException.class
-com/gokisoft/ecommerce/servlets/ProductServlet.class
 com/gokisoft/ecommerce/controllers/exceptions/NonexistentEntityException.class
 com/gokisoft/ecommerce/entities/Users.class
-com/gokisoft/ecommerce/resources/JakartaEE10Resource.class
 com/gokisoft/ecommerce/entities/Products.class
+com/gokisoft/ecommerce/servlets/product/InputServlet.class
 com/gokisoft/ecommerce/controllers/exceptions/PreexistingEntityException.class
 com/gokisoft/ecommerce/controllers/UsersJpaController.class
-com/gokisoft/ecommerce/controllers/ProductsJpaController.class
 com/gokisoft/ecommerce/JakartaRestConfiguration.class
+com/gokisoft/ecommerce/controllers/exceptions/IllegalOrphanException.class
+com/gokisoft/ecommerce/servlets/product/ProductServlet.class
+com/gokisoft/ecommerce/servlets/product/EditServlet.class
+com/gokisoft/ecommerce/resources/JakartaEE10Resource.class
+com/gokisoft/ecommerce/servlets/product/DeleteServlet.class
+com/gokisoft/ecommerce/controllers/ProductsJpaController.class
