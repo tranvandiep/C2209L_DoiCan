@@ -1,2 +1,13 @@
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/controllers/UsersJpaController.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/controllers/exceptions/PreexistingEntityException.java
 /Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/sessions/TestSessionBean.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/controllers/exceptions/NonexistentEntityException.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/entities/Products.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/entities/Users.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/controllers/ProductsJpaController.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/controllers/StudentsJpaController.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/sessions/StudentSessionBeanLocal.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/sessions/StudentSessionBean.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/entities/Students.java
 /Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/sessions/TestSessionBeanLocal.java
+/Users/dieptv/NetBeansProjects/DemoEJB/DemoEJB-ejb/src/main/java/com/gokisoft/demoejb/controllers/exceptions/IllegalOrphanException.java

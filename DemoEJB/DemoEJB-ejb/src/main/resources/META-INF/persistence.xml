@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persistence version="3.0" xmlns="https://jakarta.ee/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
-    <!-- Define Persistence Unit -->
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.0">
     <persistence-unit name="my_persistence_unit">
-        
+        <class>com.gokisoft.demoejb.entities.Products</class>
+        <class>com.gokisoft.demoejb.entities.Users</class>
+        <class>com.gokisoft.demoejb.entities.Students</class>
+
+        <!-- Configuration JDBC -->
+        <properties>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ecommerce?serverTimezone=UTC"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            
+            <!-- Fournisseur de persistance (par exemple, Hibernate) -->
+            <property name="jakarta.persistence.provider" value="org.hibernate.jpa.HibernatePersistenceProvider"/>
+
+            <!-- Génération du schéma (optionnel) -->
+            <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
+        </properties>
     </persistence-unit>
 </persistence>

@@ -1,2 +1,13 @@
-com/gokisoft/demoejb/sessions/TestSessionBean.class
+com/gokisoft/demoejb/entities/Products.class
 com/gokisoft/demoejb/sessions/TestSessionBeanLocal.class
+com/gokisoft/demoejb/controllers/UsersJpaController.class
+com/gokisoft/demoejb/entities/Users.class
+com/gokisoft/demoejb/controllers/exceptions/PreexistingEntityException.class
+com/gokisoft/demoejb/sessions/StudentSessionBean.class
+com/gokisoft/demoejb/controllers/exceptions/NonexistentEntityException.class
+com/gokisoft/demoejb/controllers/StudentsJpaController.class
+com/gokisoft/demoejb/controllers/ProductsJpaController.class
+com/gokisoft/demoejb/controllers/exceptions/IllegalOrphanException.class
+com/gokisoft/demoejb/entities/Students.class
+com/gokisoft/demoejb/sessions/TestSessionBean.class
+com/gokisoft/demoejb/sessions/StudentSessionBeanLocal.class
