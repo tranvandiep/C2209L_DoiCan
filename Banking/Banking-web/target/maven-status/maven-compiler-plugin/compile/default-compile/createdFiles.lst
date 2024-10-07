@@ -1,0 +1,5 @@
+com/gokisoft/banking/resources/JakartaEE10Resource.class
+com/gokisoft/banking/servlets/TransactionServlet.class
+com/gokisoft/banking/servlets/WithdrawServlet.class
+com/gokisoft/banking/servlets/AccountServlet.class
+com/gokisoft/banking/JakartaRestConfiguration.class
