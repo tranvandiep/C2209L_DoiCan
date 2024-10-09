@@ -1,0 +1,12 @@
+com/gokisoft/book/controllers/BooksJpaController.class
+com/gokisoft/book/entities/Books.class
+com/gokisoft/book/controllers/exceptions/IllegalOrphanException.class
+com/gokisoft/book/controllers/exceptions/PreexistingEntityException.class
+com/gokisoft/book/entities/Users.class
+com/gokisoft/book/sessions/BookSessionBeanLocal.class
+com/gokisoft/book/sessions/BookSessionBean.class
+com/gokisoft/book/sessions/UsersSessionBean.class
+com/gokisoft/book/sessions/UsersSessionBeanLocal.class
+com/gokisoft/book/controllers/UsersJpaController.class
+com/gokisoft/book/controllers/exceptions/NonexistentEntityException.class
+com/gokisoft/book/controllers/ext/ExtUsersJpaController.class

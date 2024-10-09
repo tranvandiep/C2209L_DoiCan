@@ -1,0 +1,5 @@
+com/gokisoft/book/servlet/LoginServlet.class
+com/gokisoft/book/servlet/BookServlet.class
+com/gokisoft/book/JakartaRestConfiguration.class
+com/gokisoft/book/resources/JakartaEE10Resource.class
+com/gokisoft/book/servlet/RegisterServlet.class

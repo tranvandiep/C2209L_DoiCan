@@ -1,0 +1,12 @@
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/sessions/UsersSessionBeanLocal.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/sessions/BookSessionBean.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/entities/Users.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/sessions/BookSessionBeanLocal.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/controllers/exceptions/IllegalOrphanException.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/controllers/BooksJpaController.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/sessions/UsersSessionBean.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/entities/Books.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/controllers/UsersJpaController.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/controllers/exceptions/NonexistentEntityException.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/controllers/exceptions/PreexistingEntityException.java
+/Users/dieptv/NetBeansProjects/Book/Book-ejb/src/main/java/com/gokisoft/book/controllers/ext/ExtUsersJpaController.java
