@@ -1,0 +1,6 @@
+com/gokisoft/company/servlets/DeleteCompanyServlet.class
+com/gokisoft/company/servlets/ListCompanyServlet.class
+com/gokisoft/company/resources/JakartaEE10Resource.class
+com/gokisoft/company/servlets/EditCompanyServlet.class
+com/gokisoft/company/JakartaRestConfiguration.class
+com/gokisoft/company/servlets/AddCompanyServlet.class

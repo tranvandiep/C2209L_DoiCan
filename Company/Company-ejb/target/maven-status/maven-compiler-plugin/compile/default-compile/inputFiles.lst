@@ -1,0 +1,7 @@
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/entities/Company.java
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/session/CompanySessionBeanLocal.java
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/session/CompanySessionBean.java
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/controller/CompanyJpaController.java
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/controller/exceptions/NonexistentEntityException.java
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/controller/exceptions/PreexistingEntityException.java
+/Users/dieptv/NetBeansProjects/Company/Company-ejb/src/main/java/com/gokisoft/company/controller/exceptions/IllegalOrphanException.java

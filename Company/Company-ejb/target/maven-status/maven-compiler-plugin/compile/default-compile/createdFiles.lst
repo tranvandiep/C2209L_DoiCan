@@ -1,0 +1,7 @@
+com/gokisoft/company/entities/Company.class
+com/gokisoft/company/controller/exceptions/IllegalOrphanException.class
+com/gokisoft/company/session/CompanySessionBeanLocal.class
+com/gokisoft/company/session/CompanySessionBean.class
+com/gokisoft/company/controller/exceptions/NonexistentEntityException.class
+com/gokisoft/company/controller/exceptions/PreexistingEntityException.class
+com/gokisoft/company/controller/CompanyJpaController.class
